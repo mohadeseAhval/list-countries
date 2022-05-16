@@ -1,0 +1,53 @@
+.cart {
+    background-color: white;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 10px;
+    padding: 15px;
+    width: 20%;
+    margin: 15px 1.4%;
+    position: relative;
+}
+
+.imgCart {
+    width: 100%;
+    padding-top: 75%;
+    background-color: rgb(214, 214, 214);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.titleCart {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(91, 91, 91);
+    margin: 10px 0 0 0;
+}
+
+@media screen and (max-width: 1453px) {
+    .cart {
+        width: 18%;
+        margin: 15px 1.7%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cart {
+        width: 25%;
+        margin: 15px 1.8%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cart {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cart {
+        width: 100%;
+    }
+}
