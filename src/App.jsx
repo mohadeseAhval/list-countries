@@ -1,8 +1,9 @@
+import Countries from './components/Countries/Countries';
 const App = () => {
     return (
-        <div className="container" id="title">
-        test
-        </div>
+        <>
+            <Countries/>
+        </>
     );
 };
 
