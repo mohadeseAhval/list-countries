@@ -32,6 +32,7 @@ const Countries = () => {
     return (
         <>
          <Title title="List Countries"/>
+         <h1 className="text">count: {countries.length}</h1>
          <div className="flexBox">
            {list}
         </div>
